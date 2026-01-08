@@ -36,31 +36,17 @@ const EducationSkills = () => {
           />
           <div className="relative z-10 py-16 md:py-32">
             <div className="flex items-center justify-between gap-2 border-b border-black pb-7 mb-9 xl:mb-16">
-              <h2>Education & Skills</h2>
+              <h2>Skills</h2>
               <p className="text-xl text-orange-500">( 03 )</p>
             </div>
             <div className="flex flex-col lg:flex-row items-center gap-10 xl:gap-20">
-              <div className="w-full lg:max-w-md flex flex-col gap-0 xl:gap-8">
-                {educationData?.education?.map((value: any, index: any) => {
-                  return (
-                    <div key={index} className="flex items-start gap-6">
-                      <div className="no-print mt-2.5 w-3.5 h-3.5 rounded-full border-1 bg-white flex items-center justify-center border-black">
-                        <div className="w-1.5 h-1.5 rounded-full bg-black"></div>
-                      </div>
-                      <div className="flex-1 flex flex-col gap-2">
-                        <h5>{value?.title}</h5>
-                        <p className="font-normal">{value?.description}</p>
-                      </div>
-                    </div>
-                  );
-                })}
-              </div>
-              <div className="grid grid-cols-2 xs:grid-cols-3 gap-5 xl:gap-7 w-full">
+
+              <div className="grid grid-cols-2 xs:grid-cols-3 gap-5 xl:gap-7 w-full ">
                 {educationData?.skills?.map((value: any, index: any) => {
                   return (
                     <div
-                      key={index}
-                      className="p-4 xl:p-6 border border-softGray rounded-lg flex flex-col gap-5 sm:gap-10 items-center justify-between"
+                      key={index} style={{ width: '50%' }}
+                      className=" p-4 xl:p-6 border border-softGray rounded-lg flex flex-col gap-5 sm:gap-10 items-center justify-between"
                     >
                       <div className="flex flex-col items-center gap-5">
                         <Image

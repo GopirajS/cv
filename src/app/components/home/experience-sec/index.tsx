@@ -3,34 +3,21 @@ import React from 'react';
 const ExperienceSec = () => {
     const experiences = [
         {
-            year: "2018",
-            title: "Junior UX Designer",
-            company: "www.startup.com",
+            title: "Software Engineer",
+            year: "April 2022 - September 2024",
+            company: "tealorca",
             type: "Fulltime",
-            description: "Suffered alteration in some form by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum"
+            description: "Developed full-stack web applications using MongoDB, Express.js, React.js, and Node.js. Built RESTful APIs, implemented authentication and authorization, managed application state in React, and collaborated with teams to deliver responsive and scalable solutions."
         },
         {
-            year: "2019",
-            title: "Senior UX Designer",
-            company: "www.googly.com",
-            type: "Remote",
-            description: "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem"
-        },
-        {
-            year: "2020-2022",
-            title: "Team Lead Designer",
-            company: "www.company.com",
+            title: "Software Developer",
+            year: "November 2022 – Present",
+            company: "elitoinnovations",
             type: "Fulltime",
-            description: "Handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated"
-        },
-        {
-            year: "2023+",
-            title: "Team Lead Designer",
-            company: "www.latest.com",
-            type: "Fulltime",
-            description: "Release of Letraset sheets containing Lorem Ipsum passages and more recently with desktop publishing software"
+            description: "Working on JavaScript-based full-stack applications using the MERN stack. Responsible for frontend development with React, backend API development with Node.js and Express, database management with MongoDB, and optimizing application performance and user experience."
         }
     ];
+
 
     return (
         <section>
@@ -45,8 +32,8 @@ const ExperienceSec = () => {
                         {experiences.map((exp, index) => (
                             <div key={index} className="grid grid-cols-1 sm:grid-cols-3 gap-2.5 md:gap-4 xl:gap-8 items-start relative">
                                 <div className="">
-                                    <h3 className="font-bold mb-2 text-black">{exp.year}</h3>
-                                    <h4 className="text-lg font-normal">{exp.title}</h4>
+                                    <h4 className="font-bold mb-2 text-black">{exp.title}</h4>
+                                    <h4 className="text-lg font-normal">{exp.year}</h4>
                                 </div>
 
                                 <div className=" relative">
