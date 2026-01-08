@@ -1,7 +1,19 @@
+"use client";
 import { getImgPath } from "@/utils/image";
 import Image from "next/image";
+import { useEffect, useState } from "react";
 
 const index = () => {
+    const [experienceYears, setExperienceYears] = useState<string>("");
+
+    useEffect(() => {
+        const startDate = new Date('2022-04-01');
+        const now = new Date();
+        const diffTime = Math.abs(now.getTime() - startDate.getTime());
+        const diffYears = diffTime / (1000 * 60 * 60 * 24 * 365.25);
+        setExperienceYears(diffYears.toFixed(1));
+    }, []);
+
   return (
     <section className="relative hero-section overflow-hidden pt-35 md:pt-40 pb-12 lg:pb-30 xl:pt-52">
       <div className="container">
@@ -20,11 +32,11 @@ const index = () => {
                   />
                 </div>
               </div>
-              <h2>Software Developer</h2>
+              <h3>Software Developer</h3>
             </div>
-            <p className="text-secondary font-normal max-w-md xl:max-w-xl">
-             FULL STACK DEVELOPER | MERN STACK DEVELOPER
-            </p>
+            <h5 className="text-secondary font-normal max-w-md xl:max-w-xl">
+             {experienceYears} years of total experience (April 2022 – Present)
+            </h5>
           </div>
           <Image
             src={getImgPath("/images/home/banner/banner-img.png")}
