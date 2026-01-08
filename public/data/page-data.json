@@ -34,49 +34,47 @@
     "skills": {
       "Frontend": {
         "skills": [
-          {"name": "HTML", "icon": "/images/home/education-skill/html-icon.svg", "rating": 5},
-          {"name": "CSS", "icon": "/images/home/education-skill/css-icon.svg", "rating": 5},
-          {"name": "JavaScript", "icon": "/images/home/education-skill/javascript-icon.svg", "rating": 5},
-          {"name": "React", "icon": "/images/home/education-skill/react-icon.svg", "rating": 5}
+          {"name": "HTML", "icon": "/images/home/education-skill/html.svg", "rating": 5},
+          {"name": "CSS", "icon": "/images/home/education-skill/css.svg", "rating": 5},
+          {"name": "JavaScript", "icon": "/images/home/education-skill/javascript.svg", "rating": 5},
+          {"name": "React", "icon": "/images/home/education-skill/react.svg", "rating": 5}
         ]
       },
       "Backend": {
         "skills": [
-          {"name": "Node.js", "icon": "/images/home/education-skill/nodejs-icon.svg", "rating": 5},
-          {"name": "Express.js", "icon": "/images/home/education-skill/express-icon.svg", "rating": 5},
-          {"name": "PHP", "icon": "/images/home/education-skill/php-icon.svg", "rating": 4},
-          {"name": "Laravel", "icon": "/images/home/education-skill/laravel-icon.svg", "rating": 4}
+          {"name": "Node.js", "icon": "/images/home/education-skill/nodejs.svg", "rating": 5},
+          {"name": "Express.js", "icon": "/images/home/education-skill/express.svg", "rating": 5},
+          {"name": "PHP", "icon": "/images/home/education-skill/php.svg", "rating": 4},
+          {"name": "Laravel", "icon": "/images/home/education-skill/laravel.svg", "rating": 4}
         ]
       },
       "Database": {
         "skills": [
-          {"name": "MySQL", "icon": "/images/home/education-skill/mysql-icon.svg", "rating": 5},
-          {"name": "MongoDB", "icon": "/images/home/education-skill/mongodb-icon.svg", "rating": 5}
+          {"name": "MySQL", "icon": "/images/home/education-skill/mysql.svg", "rating": 5},
+          {"name": "MongoDB", "icon": "/images/home/education-skill/mongodb.svg", "rating": 5}
         ]
       },
       "Tools": {
         "skills": [
-          {"name": "Git", "icon": "/images/home/education-skill/git-icon.svg", "rating": 5},
-          {"name": "Postman", "icon": "/images/home/education-skill/postman-icon.svg", "rating": 5},
-          {"name": "API", "icon": "/images/home/education-skill/api-icon.svg", "rating": 5},
-          {"name": "REST API", "icon": "/images/home/education-skill/restapi-icon.svg", "rating": 5},
-          {"name": "JWT Auth", "icon": "/images/home/education-skill/jwt-icon.svg", "rating": 5}
+          {"name": "Git", "icon": "/images/home/education-skill/git.svg", "rating": 5},
+          {"name": "Postman", "icon": "/images/home/education-skill/postman.svg", "rating": 5},
+          {"name": "API", "icon": "/images/home/education-skill/api.svg", "rating": 5},
+          {"name": "JWT Auth", "icon": "/images/home/education-skill/jwt.svg", "rating": 5}
         ]
       },
       "Server": {
         "skills": [
-          {"name": "AWS", "icon": "/images/home/education-skill/aws-icon.svg", "rating": 4}
+          {"name": "AWS", "icon": "/images/home/education-skill/aws.svg", "rating": 4}
         ]
       },
       "Stack": {
         "skills": [
-          {"name": "MERN Stack", "icon": "/images/home/education-skill/mern-icon.svg", "rating": 5},
-          {"name": "LAMP Stack", "icon": "/images/home/education-skill/lamp-icon.svg", "rating": 4}
+          {"name": "MERN Stack", "icon": "/images/home/education-skill/Mern.png", "rating": 5}
         ]
       },
       "Operating System": {
         "skills": [
-          {"name": "Ubuntu", "icon": "/images/home/education-skill/ubuntu-icon.svg", "rating": 5}
+          {"name": "Ubuntu", "icon": "/images/home/education-skill/ubuntu.svg", "rating": 5}
         ]
       }
     }
