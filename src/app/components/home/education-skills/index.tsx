@@ -39,32 +39,33 @@ const EducationSkills = () => {
                             <h2>Skills</h2>
                             <p className="text-xl text-orange-500">( 03 )</p>
                         </div>
-                        <div className="flex flex-col lg:flex-row items-center gap-10 xl:gap-20">
+                        <div className="flex flex-col items-center gap-10 xl:gap-20">
 
-                            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 xl:gap-7 w-full ">
+                            <div className="flex flex-col gap-5 xl:gap-7 w-full">
                                 {Object.entries(educationData?.skills || {}).map(([category, data]: [string, any], index: number) => {
                                     return (
                                         <div
                                             key={index}
-                                            className="p-4 xl:p-6 border border-softGray rounded-lg flex flex-col gap-5 items-center"
+                                            className="p-4 xl:p-6  rounded-lg flex flex-col gap-5 items-center"
                                         >
-                                            <Image
-                                                src={getImgPath(data?.icon)}
-                                                alt={category}
-                                                width={70}
-                                                height={70}
-                                            />
-                                            <h3 className="text-lg font-semibold text-black">{category}</h3>
-                                            <div className="w-full">
+
+                                            <h2 className="text-lg  text-black">{category}</h2>
+                                            <div className="grid grid-cols-2 gap-3 w-full">
                                                 {data?.skills?.map((skill: any, idx: number) => (
-                                                    <div key={idx} className="flex justify-between items-center mb-2">
-                                                        <p className="text-sm text-black font-normal">{skill?.name}</p>
+                                                    <div key={idx} className="flex flex-col items-center gap-2 p-2 border border-softGray rounded-lg">
+                                                        <Image
+                                                            src={getImgPath(skill?.icon)}
+                                                            alt={skill?.name}
+                                                            width={40}
+                                                            height={40}
+                                                        />
+                                                        <p className="text-sm text-black font-normal text-center">{skill?.name}</p>
                                                         <div className="flex gap-1">
                                                             {[...Array(5)].map((_, i) => (
                                                                 <svg
                                                                     key={i}
-                                                                    width="9"
-                                                                    height="9"
+                                                                    width="7"
+                                                                    height="7"
                                                                     viewBox="0 0 9 9"
                                                                     fill="none"
                                                                     xmlns="http://www.w3.org/2000/svg"
