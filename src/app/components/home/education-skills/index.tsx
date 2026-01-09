@@ -56,8 +56,8 @@ const EducationSkills = () => {
                                                         <Image
                                                             src={getImgPath(skill?.icon)}
                                                             alt={skill?.name}
-                                                            width={40}
-                                                            height={40}
+                                                            width={60}
+                                                            height={60}
                                                         />
                                                         <p className="text-sm text-black font-normal text-center">{skill?.name}</p>
                                                         <div className="flex gap-1">

@@ -54,7 +54,7 @@
           {"name": "MongoDB", "icon": "/images/home/education-skill/mongodb.svg", "rating": 5}
         ]
       },
-      "Tools": {
+      "Other": {
         "skills": [
           {"name": "Git", "icon": "/images/home/education-skill/git.svg", "rating": 5},
           {"name": "Postman", "icon": "/images/home/education-skill/postman.svg", "rating": 5},
