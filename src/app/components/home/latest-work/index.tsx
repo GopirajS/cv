@@ -38,41 +38,23 @@ const LatestWork = () => {
                     key={index}
                     className="group flex flex-col gap-3 xl:gap-6"
                   >
-                    <div className="relative">
+                    <div className="relative aspect-[570/414]">
                       <Image
                         src={getImgPath(value?.image)}
                         alt="image"
-                        width={570}
-                        height={414}
-                        className="rounded-lg w-full h-full object-cover"
+                        fill
+                        className="rounded-lg object-cover"
                       />
                       <Link
-                        onClick={(e) => e.preventDefault()}
-                        href={"#!"}
+                        href={value.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
                         className="absolute top-0 left-0 backdrop-blur-xs bg-primary/15 w-full h-full hidden group-hover:flex rounded-lg"
                       >
                         <span className="flex justify-center items-center p-5 w-full">
-                          <svg
-                            width="65"
-                            height="64"
-                            viewBox="0 0 65 64"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <rect
-                              x="0.333374"
-                              width="64"
-                              height="64"
-                              rx="32"
-                              fill="#FE4300"
-                            />
-                            <path
-                              d="M25.6667 25.3333H39M39 25.3333V38.6666M39 25.3333L25.6667 38.6666"
-                              stroke="#FFFF"
-                              strokeWidth="2"
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                            />
+                          <svg  width="65"  height="64"  viewBox="0 0 65 64"  fill="none"  xmlns="http://www.w3.org/2000/svg">
+                            <rect  x="0.333374"  width="64"  height="64"  rx="32"  fill="#FE4300"/>
+                            <path  d="M25.6667 25.3333H39M39 25.3333V38.6666M39 25.3333L25.6667 38.6666"  stroke="#FFFF"  strokeWidth="2"  strokeLinecap="round"  strokeLinejoin="round"/>
                           </svg>
                         </span>
                       </Link>
@@ -89,7 +71,6 @@ const LatestWork = () => {
                           height={30}
                         />
                       </div>
-                      <p>Client: {value?.client}</p>
                     </div>
                   </div>
                 );
