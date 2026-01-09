@@ -50,9 +50,9 @@ const EducationSkills = () => {
                                         >
 
                                             <h2 className="text-lg  text-black">{category}</h2>
-                                            <div className="grid grid-cols-3 gap-3 w-full">
+                                            <div className="flex flex-wrap justify-center gap-5 w-full">
                                                 {data?.skills?.map((skill: any, idx: number) => (
-                                                    <div key={idx} className="flex flex-col items-center gap-2 p-2 border border-softGray rounded-lg">
+                                                    <div key={idx} style={{ padding: '17px 81px' }} className="flex flex-col items-center gap-2 p-2 border border-softGray rounded-lg ">
                                                         <Image
                                                             src={getImgPath(skill?.icon)}
                                                             alt={skill?.name}
