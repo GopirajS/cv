@@ -59,21 +59,9 @@
           {"name": "Git", "icon": "/images/home/education-skill/git.svg", "rating": 5},
           {"name": "Postman", "icon": "/images/home/education-skill/postman.svg", "rating": 5},
           {"name": "API", "icon": "/images/home/education-skill/api.svg", "rating": 5},
-          {"name": "JWT Auth", "icon": "/images/home/education-skill/jwt.svg", "rating": 5}
-        ]
-      },
-      "Server": {
-        "skills": [
-          {"name": "AWS", "icon": "/images/home/education-skill/aws.svg", "rating": 4}
-        ]
-      },
-      "Stack": {
-        "skills": [
-          {"name": "MERN Stack", "icon": "/images/home/education-skill/Mern.png", "rating": 5}
-        ]
-      },
-      "Operating System": {
-        "skills": [
+          {"name": "JWT Auth", "icon": "/images/home/education-skill/jwt.svg", "rating": 5},
+          {"name": "AWS", "icon": "/images/home/education-skill/aws.svg", "rating": 4},
+          {"name": "MERN Stack", "icon": "/images/home/education-skill/Mern.png", "rating": 5},
           {"name": "Ubuntu", "icon": "/images/home/education-skill/ubuntu.svg", "rating": 5}
         ]
       }
