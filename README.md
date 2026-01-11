@@ -1,6 +1,8 @@
 # Resume - Free Next.js Resume Website Template
 #### Preview
 
+![Image](/project_preview.png)
+
  - [Demo](https://themewagon.github.io/Resume-Nextjs/)
 
 #### Download
