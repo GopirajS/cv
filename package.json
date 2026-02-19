@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "export": "next build",
-    "deploy": "next build && gh-pages -d out"
+    "deploy": "next build && cp public/.nojekyll out/.nojekyll && gh-pages -d out -t"
   },
   "dependencies": {
     "gh-pages": "^6.3.0",

@@ -2,6 +2,7 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   basePath: '/cv',
+  assetPrefix: '/cv/',
   output: "export",
   images: {
     unoptimized: true,
