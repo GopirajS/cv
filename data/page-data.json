@@ -1,0 +1,98 @@
+{
+  "contactBar": {
+    "contactItems": [
+      {
+        "type": "email",
+        "label": "gopiraj19599@gmail.com",
+        "icon": "/images/icon/mail-icon.svg",
+        "link": "mailto:gopiraj19599@gmail.com"
+      },
+      {
+        "type": "phone",
+        "label": "91 8778582299",
+        "icon": "/images/icon/call-icon.svg",
+        "link": "tel:+91 8778582299"
+      }
+    
+    ],
+    "socialItems": [
+    
+      {
+        "platform": "linkedin",
+        "icon": "/images/icon/linkedin-icon.svg",
+        "link": "https://linkedin.com"
+      },
+      {
+        "platform": "facebook",
+        "icon": "/images/icon/facebook-icon.svg",
+        "link": "https://facebook.com"
+      }
+    ]
+  },
+  "educationData": {
+
+    "skills": {
+      "Frontend": {
+        "skills": [
+          {"name": "HTML", "icon": "/images/home/education-skill/html.svg", "rating": 5},
+          {"name": "CSS", "icon": "/images/home/education-skill/css.svg", "rating": 5},
+          {"name": "JavaScript", "icon": "/images/home/education-skill/javascript.svg", "rating": 5},
+          {"name": "React", "icon": "/images/home/education-skill/react.svg", "rating": 5}
+        ]
+      },
+      "Backend": {
+        "skills": [
+          {"name": "Node.js", "icon": "/images/home/education-skill/nodejs.svg", "rating": 5},
+          {"name": "Express.js", "icon": "/images/home/education-skill/express.svg", "rating": 5},
+          {"name": "PHP", "icon": "/images/home/education-skill/php.svg", "rating": 4},
+          {"name": "Laravel", "icon": "/images/home/education-skill/laravel.svg", "rating": 4}
+        ]
+      },
+      "Database": {
+        "skills": [
+          {"name": "MySQL", "icon": "/images/home/education-skill/mysql.svg", "rating": 5},
+          {"name": "MongoDB", "icon": "/images/home/education-skill/mongodb.svg", "rating": 5}
+        ]
+      },
+      "Other": {
+        "skills": [
+          {"name": "Git", "icon": "/images/home/education-skill/git.svg", "rating": 5},
+          {"name": "Postman", "icon": "/images/home/education-skill/postman.svg", "rating": 5},
+          {"name": "API", "icon": "/images/home/education-skill/api.svg", "rating": 5},
+          {"name": "JWT Auth", "icon": "/images/home/education-skill/jwt.svg", "rating": 5},
+          {"name": "AWS", "icon": "/images/home/education-skill/aws.svg", "rating": 4},
+          {"name": "MERN Stack", "icon": "/images/home/education-skill/Mern.png", "rating": 5},
+          {"name": "Ubuntu", "icon": "/images/home/education-skill/ubuntu.svg", "rating": 5}
+        ]
+      }
+    }
+  },
+  "contactLinks": {
+    "socialLinks": [
+      {
+        "title": "Dribble",
+        "href": "/"
+      },
+      {
+        "title": "Facebook",
+        "href": "/"
+      },
+      {
+        "title": "LinkedIn",
+        "href": "/"
+      }
+    ],
+    "contactInfo": [
+      {
+        "type": "email",
+        "label": "gopiraj19599@gmail.com",
+        "link": "mailto:gopiraj19599@gmail.com"
+      },
+      {
+        "type": "phone",
+        "label": "+91 8778582299",
+        "link": "tel:+91 8778582299"
+      }
+    ]
+  }
+}

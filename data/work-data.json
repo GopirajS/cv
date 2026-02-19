@@ -1,0 +1,28 @@
+{
+  "workData": [
+    {
+      "image": "/images/work/kaleesuwari.png",
+      "url": "https://kaleesuwari.com",
+      "title": "Ecommess site",
+      "slug": "mug-sticker-designing"
+    },
+    {
+      "image": "/images/work/tvms.png",
+      "url": "https://tvms.kaleesuwari.com",
+      "title": "Transport Vendor Management System",
+      "slug": "mobile-app-design"
+    },
+    {
+      "image": "/images/work/gnga.png",
+      "url": "https://gnga.kaleesuwari.com",
+      "title": "Fashion Website Template",
+      "slug": "fashion-website-template"
+    },
+    {
+      "image": "/images/work/emc.png",
+      "url": "https://mytimesheet.in",
+      "title": "Fashion Website Template",
+      "slug": "fashion-website-template"
+    }
+  ]
+}
